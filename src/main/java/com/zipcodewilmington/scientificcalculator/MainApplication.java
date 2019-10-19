@@ -14,4 +14,23 @@ public class MainApplication {
         Console.println("The user input %s as a integer", i);
         Console.println("The user input %s as a d", d);
     }
+
+    public static Integer calcAdd (Integer a, Integer b) {
+        Integer add = a + b;
+        return add;
+    }
+
+    public static Integer calcSub (Integer a, Integer b) {
+        Integer sub = a - b;
+        return sub;
+
+    }
+
+    public static Integer calcPosNeg (Integer a) {
+        Integer posneg = (a * -1);
+        return posneg;
+    }
+
+
+
 }
